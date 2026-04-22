@@ -12,6 +12,6 @@
 # iscoury("Nepal")
 # iscoury()
 
-def sumfun(a,b):
-    return a+b
-print(sumfun(20,45))
+# def sumfun(a,b):
+#     return a+b
+# print(sumfun(20,45))
