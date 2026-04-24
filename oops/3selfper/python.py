@@ -41,11 +41,36 @@
 # p2.greet()
 
 #self ki jagha ham kuch or name bhi likh sakte hai
-class myclass:
-    def __init__(myobj,name):
-        myobj.name=name
-    def greet(abc):
-        print(f"My name is {abc.name}")
+# class myclass:
+#     def __init__(myobj,name):
+#         myobj.name=name
+#     def greet(abc):
+#         print(f"My name is {abc.name}")
 
-p1=myclass("Mohit")
-p1.greet() #this is working properly means ham slef na leke koi or bhi use kar sakta hu
+# p1=myclass("Mohit")
+# p1.greet() #this is working properly means ham slef na leke koi or bhi use kar sakta hu
+
+#access multiple value using self
+# class car:
+#     def __init__(self,brand,model,year):
+#         self.brand=brand
+#         self.model=model
+#         self.year=year
+#     def display_info(self):
+#         print(f"{self.brand} {self.model} {self.year}")
+
+# car1=car("toyota","sizuki",450)
+# car1.display_info()
+
+
+class person:
+    def __init__(self,name):
+        self.name=name
+    def greet(self):
+        return f"Hello {self.name}"
+    def welcome(self):
+        message=self.greet()
+        print(message+"! welcome to our website")
+
+p1=person("Mohit")
+p1.welcome()
