@@ -31,4 +31,4 @@
 #we have one more fucntion that ciel jo ciel function hai wo round karta hai or next number predict karta hai sida
 import numpy as np
 arr=np.ceil([-3.4433,3.4543])
-print(arr )
+print( arr )
