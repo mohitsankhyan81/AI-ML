@@ -20,4 +20,4 @@
 
 with open("file.txt") as f:
     for x in f:
-        print(x)
+        print( x)
